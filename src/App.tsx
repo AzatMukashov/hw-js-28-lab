@@ -1,9 +1,9 @@
-import './App.css'
-import React, {useState} from "react";
-import IngredientButton from "./components/IngredientButton.tsx";
-import Burger from "./components/Burger.tsx";
-import {INGREDIENTS} from "./ingredient.ts";
-import {Ingredient} from "./types";
+import './App.css';
+import React, {useState} from 'react';
+import IngredientButton from './components/IngredientButton.tsx';
+import Burger from './components/Burger.tsx';
+import {INGREDIENTS} from './ingredient.ts';
+import {Ingredient} from './types';
 
 const BASE_PRICE = 30;
 
@@ -62,4 +62,4 @@ const App: React.FC = () => {
     );
 };
 
-export default App
+export default App;

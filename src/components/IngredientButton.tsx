@@ -1,5 +1,5 @@
-import React from "react";
-import {Ingredient} from "../types";
+import React from 'react';
+import {Ingredient} from '../types';
 import deleteIng from '../assets/deleteIng.png';
 
 interface IngredientButtonProps {
